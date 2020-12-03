@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_login"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgUsuarioApp"
+        android:layout_marginTop="20dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:background="#fff"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/txtIdApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgUsuarioApp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#fff"
+        android:text="ID: 15"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/txtUsuarioApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtIdApp"
+        android:background="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Usuario: ejemplo"
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/txtContraApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUsuarioApp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:layout_marginHorizontal="20dp"
+        android:text="Contra: ******"
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/txtCorreoApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtContraApp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:layout_marginHorizontal="20dp"
+        android:text="Email: ejemplo@gmail.com"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnSalirApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Salir"
+        android:textSize="30sp"
+        android:background="#fff"/>
+</RelativeLayout>
